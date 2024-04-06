@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(184, 255, 255);
+            margin: 0px;
+        }
+
+        header {
+           background-color: rgb(236, 218, 255);
+           padding: 10px;
+           margin: 10px;
+           border-radius: 20px;
+        }
+
+        main {
+            background-color: rgb(0, 225, 150);
+            padding: 10px;
+            margin: 10px;border-radius: 20px;
+        }
+        footer {
+          background-color: rgb(128, 115, 115);
+          color: rgb(255, 216, 216);
+          text-align: center;
+          padding: 5px;
+          margin: 0px;
+          
+          }
+        footer > p {
+              margin: 0px;
+              
+          }
+        
+        article > aside {
+            background-color: rgb(166, 250, 193);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        nav {
+            background-color: rgb(240, 196, 196);
+            padding: 3px;
+            box-shadow: 1px 1px 5px 2px rgb(0, 0, 0) 
+            
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        p {
+            color: black;
+            font-family: fantasy;
+        }
+        #oss {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(65, 252, 90);
+            font-style: italic;
+            font-weight: bolder;
+            
+        }
+        
+        #assunto {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .under {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: bold;
+        }
+       .under:hover {
+        text-decoration: underline;
+       }
+       
+       
+    </style>
+</head>
+<body>
+     <header>
+             <h1 class="under">Meu Site</h1>
+         <nav>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+           <a href="#">Link</a>
+         </nav>
+     </header>
+     <main>
+        <section id="noticias">
+            <article>
+                <h2 class="under">Noticias sobre mim</h2>
+                <p id="assunto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur inventore sunt vero, veritatis asperiores ratione beatae totam maiores eveniet voluptate porro dolores! Hic harum nesciunt earum quas eos tenetur.</p>
+                <aside>
+                 <p id="oss">ESCRITO POR CARLOS</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="assuntos"> 
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido Por Carlos!! </p>
+     </footer>
+</body>
+</html>

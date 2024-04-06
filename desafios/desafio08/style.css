@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+ font-family: 'idroid';
+ src: url(fonts/idroid.otf); 
+ font-weight: normal;
+ font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #ffffff;
+     
+     }
+
+header {
+      color: white;
+      font-family: "Bebas Neue";
+      font-size: large;
+      background-image: linear-gradient(to top,#106c2c, 
+      #157223);
+      margin: 0px;
+      padding: 50px;
+      text-align: center;  
+      text-shadow: 6px 1px 4px black
+      }
+
+      
+ nav {
+      background-color: #04500f;
+      outline: auto;
+      padding: 15px;
+      font-size: small;
+      text-decoration: none;
+      color: white;
+        
+}
+
+nav > a {
+      
+      font-size: small;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 15px;
+}
+ nav > a:hover {
+      background-color: #06a8168a;
+      color: #000000;
+      text-decoration: underline;
+}
+ 
+main {
+      background-color: white;
+      text-indent: 155px;
+}
+main > h1 {
+      background-image: linear-gradient(to right , #0dd22b7c , transparent );
+      font-family: 'idroid';
+      color: #0dd22a;
+      text-indent: 15px;
+      max-width: 1000px;
+      min-width: 300px;
+}
+main > p {
+      margin: 15px 0px;
+      text-indent: 20px;
+      text-align: justify;
+      line-height: 34px;
+}
+
+
+.meio {
+      text-indent: 70px;
+}
+.dandroid {
+      width: 1300px;
+      height: 350px;
+      width: 100%;
+}
+.irina {
+      width: 1500px ;
+      height: 250px;
+      width: 100%;
+}
+
+.bugdroid {
+      width: 500px;
+      display: block;
+      margin: auto;
+      
+}
+
+.video {
+      display: block;
+      margin: auto;
+}
+
+aside {
+      padding: 0px;
+      background-color: #79c376;
+      border-radius: 12px;
+      
+}     
+aside > h2 {
+      text-indent: 5px;
+      color: white;
+      background-color: #17a72d;
+      border-radius: 7px;
+      padding: 13px;
+      
+      
+}
+aside > p {
+      margin: 0px;
+      line-height: 34px;
+      text-indent: 20px;
+      text-align: justify;
+          }
+aside > ul {
+        text-indent: 5px;
+        list-style-type: '🗸';
+        columns: 2;
+}
+
+footer {
+      background-image: linear-gradient(to left , rgb(1, 127, 39) , transparent);
+      margin: 20px;
+      text-align: end;
+      
+}
+
+strong {
+      background-color: #0dd22b6f;
+}
