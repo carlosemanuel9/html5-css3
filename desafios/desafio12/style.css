@@ -47,9 +47,9 @@ a:hover{
 
 .cordel_1 {
     font-family:"Sriracha" ;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     margin: 30px;
-    line-height: 100px;
+    line-height: 150px;
     padding-bottom: 100px;
     
 }
@@ -60,26 +60,26 @@ a:hover{
     background-attachment: fixed;
     background-size: cover;
     font-family:"Sriracha" ;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     margin: 0px;
-    line-height: 100px;
+    line-height: 150px;
     padding: 26px;
     color: white;
 }
 
 .cordel_2 {
     font-family:"Sriracha" ;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     margin: 30px;
-    line-height: 100px;
+    line-height: 150px;
     padding-top: 30px;
 }
 
 .cordel_3 {
     font-family:"Sriracha" ;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     margin: 30px;
-    line-height: 100px;
+    line-height: 150px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -90,9 +90,9 @@ a:hover{
             background-attachment: fixed;
             background-size: cover;
             font-family:"Sriracha" ;
-            font-size: 3.5vw;
+            font-size: 4.5vw;
             margin: 0px;
-            line-height: 100px;
+            line-height: 150px;
             padding: 26px;
             color: rgb(0, 0, 0); 
 }
