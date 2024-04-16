@@ -7,16 +7,17 @@
 *{
     padding: 0;
     margin: 0;
- }
+}
 
-html, body {
+body {
     min-height: 100vh;
 }
- 
+
+
+
 header{
     background-color: black;
     height: 280px;
-    
     
 }
 
@@ -27,6 +28,7 @@ header > h1 {
     font-family: "Passion one";
     font-size: 140px;
     font-variant: small-caps;
+    
 
 }
 
@@ -38,8 +40,8 @@ header > p {
 }
 
 p > a {
-     color: white;
-     text-decoration: none;
+color: white;
+text-decoration: none;
 }
 
 a:hover{
