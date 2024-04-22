@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse:collapse;
+        }
+        caption {
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        th , td {
+            border:1px solid black;
+            padding:10px;
+        }
+        .nome {
+            background-color: lightblue;
+        }
+        .sexo {
+            background-color: lightgrey;
+        }
+        .idade {
+            background-color:lightgoldenrodyellow
+        }
+        .prof {
+            background-color:lightpink
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>Feminino</td>
+            <td>20</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Masculino</td>
+            <td>19</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Maria Clara</td>
+            <td>Feminino</td>
+            <td>21</td>
+            <td>Pediatra</td>
+        </tr>
+        <tr>
+            <td>Junior</td>
+            <td>Masculino</td>
+            <td>23</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Pintora</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Eletricista</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Programadora</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
